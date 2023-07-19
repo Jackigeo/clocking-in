@@ -1,5 +1,4 @@
-# template-ts
-Template typescript project
+# Hadoken Typescript technical test
 
 ```javascript
 npm install
