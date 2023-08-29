@@ -16,7 +16,7 @@ export class WatchController {
     // Update time every second
     setInterval(() => {
       this.updateTime();
-      this.view.rotateWatches()
+      this.view.animate()
   }, 1000);
   }
 
