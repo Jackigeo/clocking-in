@@ -1,0 +1,32 @@
+const timezones : {[key: string]:{Name:string,offset:number}}= {
+    "GMT-1200": { Name: "Baker Island", offset: -12 },
+    "GMT-1100": { Name: "Samoa std.", offset: -11 },
+    "GMT-1000": { Name: "Hawaii-Aleutian std.", offset: -10 },
+    "GMT-0900": { Name: "Alaska std.", offset: -9 },
+    "GMT-0800": { Name: "Pacific std.", offset: -8 },
+    "GMT-0700": { Name: "Mountain std.", offset: -7 },
+    "GMT-0600": { Name: "Central std.", offset: -6 },
+    "GMT-0500": { Name: "Eastern std.", offset: -5 },
+    "GMT-0400": { Name: "Atlantic std.", offset: -4 },
+    "GMT-0300": { Name: "Brazil", offset: -3 },
+    "GMT-0200": { Name: "Mid-Atlantic std.", offset: -2 },
+    "GMT-0100": { Name: "Azores", offset: -1 },
+    "GMT+0000": { Name: "Greenwich Mean", offset: 0 },
+    "GMT+0100": { Name: "Central European", offset: 1 },
+    "GMT+0200": { Name: "Eastern European", offset: 2 },
+    "GMT+0300": { Name: "Moscow std.", offset: 3 },
+    "GMT+0400": { Name: "Gulf std.", offset: 4 },
+    "GMT+0500": { Name: "Pakistan std.", offset: 5 },
+    "GMT+0530": { Name: "Indian std.", offset: 5.5 },
+    "GMT+0600": { Name: "Bangladesh", offset: 6 },
+    "GMT+0700": { Name: "Indochina", offset: 7 },
+    "GMT+0800": { Name: "China std.", offset: 8 },
+    "GMT+0900": { Name: "Japan std.", offset: 9 },
+    "GMT+1000": { Name: "Australian Eastern std.", offset: 10 },
+    "GMT+1030": { Name: "Lord Howe std.", offset: 10.5 },
+    "GMT+1200": { Name: "New Zealand std.", offset: 12 },
+    "GMT+1300": { Name: "Tonga", offset: 13 },
+    "GMT+1400": { Name: "Line Islands", offset: 14 }
+  };
+
+  export default timezones;

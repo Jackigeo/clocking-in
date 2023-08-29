@@ -26,7 +26,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   plugins: [new HtmlWebpackPlugin({
-    title: 'GE Template ts',
+    title: 'Clocking in',
     template: path.join(process.cwd(), 'src/index.html'),
     filename: 'index.html',
   })],
